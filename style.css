@@ -83,6 +83,7 @@ main {
 
 /*Added ".aside" in place of ".benefit"... ".aside moves aside and footer to middle. "aside moves aside and footer all the way right*/
     /*Changed attribute back to .benefits after changing "div" to "aside" but kept class the same in HTML" */
+    /* Changed back to "aside" after redefining class tag in HTML and adding the <aside> tag instead */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -93,27 +94,27 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*Combined the three separate "lead, brand, and cost" sections*/
+/*Combined the three separate "lead, brand, and cost" sections by creating new class in HTML that combined all 3 classes previously separated */
 .benefit-aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Combined the three separate "lead, brand, and cost" sections*/
+/*Combined the three separate "lead, brand, and cost" sections by creating new class in HTML that combined all 3 classes previously separated */
 .benefit-aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 
-/*Combined the three separate "lead, brand, and cost" sections-- combined 3 classes to 1 "benefit-aside" class*/
+/*Combined the three separate "lead, brand, and cost" sections by creating new class in HTML that combined all 3 classes previously separated */
 .benefit-aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*Combined the three separate "lead, brand, and cost" sections*/
+/*Combined the three separate "lead, brand, and cost" sections by creating new class in HTML that combined all 3 classes previously separated */
 .main-points {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,19 +124,19 @@ aside {
     color: #ffffff;
 }
 
-/*Combined the three separate "lead, brand, and cost" sections*/
+/*Combined the three separate "lead, brand, and cost" sections by creating new class in HTML that combined all 3 classes previously separated */
 .main-points img {
     max-height: 200px;
 }
 
-/*Combined the three separate "lead, brand, and cost" sections*/
+/*Combined the three separate "lead, brand, and cost" sections by creating new class in HTML that combined all 3 classes previously separated */
 .main-points h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*Removed "." that tagged "footer" class from HTML*/
-    /*Added back after moving "</body>" to the right place in HTML code*/
+/*Removed "." that tagged "footer" class from HTML because <footer> is a recognized tag*/
+    
 footer {
     padding: 30px;
     clear: both;
