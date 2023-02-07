@@ -74,7 +74,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -82,7 +83,7 @@ p {
 
 /*Added ".aside" in place of ".benefit"... ".aside moves aside and footer to middle. "aside moves aside and footer all the way right*/
     /*Changed attribute back to .benefits after changing "div" to "aside" but kept class the same in HTML" */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
